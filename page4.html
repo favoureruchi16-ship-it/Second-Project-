@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Page 4</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="page4.css">
+</head>
+<body>
+
+   <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page2.html">Users</a></li>
+          <li><a href="page3.html">Posts</a></li>
+          <li><a href="page4.html">Register</a></li>
+          </ul>
+     </nav>
+    <h1>User Registration</h1>
+
+  <form id="registerForm" novalidate>
+
+    <div class="field">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName">
+      <div class="error" id="firstNameError"></div>
+    </div>
+
+    <div class="field">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName">
+      <div class="error" id="lastNameError"></div>
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email">
+      <div class="error" id="emailError"></div>
+    </div>
+
+    <div class="field">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+      <div class="error" id="passwordError"></div>
+    </div>
+
+    <div class="field">
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword">
+      <div class="error" id="confirmPasswordError"></div>
+    </div>
+
+    <div class="field">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" placeholder="e.g. 1234567890">
+      <div class="error" id="phoneError"></div>
+    </div>
+
+    <div class="field">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob">
+      <div class="error" id="dobError"></div>
+    </div>
+
+    <div class="field checkbox-field">
+      <label>
+        <input type="checkbox" id="terms" name="terms">
+        I agree to the Terms &amp; Conditions
+      </label>
+      <div class="error" id="termsError"></div>
+    </div>
+
+    <div id="successMessage" class="success" style="display:none;">
+      Registration successful!
+    </div>
+
+    <button type="submit">Register</button>
+
+  </form>
+
+  <script src="theme.js"></script>
+  <script src="page4.js"></script>
+
+</body>
+</html>

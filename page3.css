@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#postSearch {
+  display: block;
+  margin: 10px auto 20px;
+  padding: 10px 14px;
+  width: 300px;
+  max-width: 90%;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--input-bg);
+  color: var(--text);
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: var(--text);
+  opacity: 0.7;
+  padding: 40px 0;
+}
+
+.error {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 16px;
+  background: #fdecea;
+  color: #b91c1c;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.card p {
+  margin: 0;
+  color: var(--text);
+  opacity: 0.75;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+/* Mobile-first responsive tweaks */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  #postSearch {
+    width: 100%;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--nav-bg);
+  padding: 16px 32px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0 10px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #9DB97F;
+}

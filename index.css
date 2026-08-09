@@ -1,0 +1,505 @@
+header{
+    background-color:white;
+    border: none;
+    padding: 40px 70px;
+    height: 650px;
+    width: 1050px;
+    
+}
+.head-right{
+    display: flex;
+
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+   height: 450px;
+   width: 450px;
+   border: none;
+   display: flex;
+   flex: 1;
+  
+}
+.box2{
+   height: 400px;
+   width: 400px;
+   border: none;
+   flex: 1;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+    margin-right: 7px;
+    margin-top: 15px;
+
+}
+h5{
+    
+}
+h4{
+    color: #68737F;
+    font-size: 10px;
+    margin-top: 25px;
+}
+.search{
+    padding-left: 800px;
+    height: 20px;
+    width: 20px;
+}
+.icon{
+    padding-left: 15px;
+    height: 20px;
+    width: 20px 
+}
+
+.headimg{
+    height: 500px;
+    width: 310px;
+    padding-left: 40px;
+    
+
+}
+.dotimg{
+    height: 50px;
+    width: 10px;
+    margin-top: 200px;
+}
+ h2{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif; 
+    color:#9DB97F;
+}
+ p{
+    color: #68737F;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn1{
+    background-color: #9DB97F;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15x;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+
+}
+.btn2{
+    background-color: White;
+    color: Black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.social{
+    display: flex;
+    margin-top: 75px;
+    margin-left: 300px;
+    
+}
+.fb{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.yt{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.ins{
+    height: 20px;
+    width: 20px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.arrowimg{
+    margin-right: 60px;
+    height: 6px;
+}
+.arrowimg2{
+    margin-left: 60px;
+    height: 6px;
+}
+h6{
+    font-size: 12px;
+    color: black;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+.services{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FFFDF8;
+}
+.inplant{
+    margin-top: 40px;
+    margin-left: 190px;
+    margin-right: 20px;
+}
+.outplant{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.garden{
+    margin-top: 40px;
+}
+.explore{
+    display: flex;
+    margin: 100px 100px;    ;
+}
+    
+
+.sh1{
+ font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+}
+.box3{
+    height: 400px;
+    width: 400px;
+    border: none;
+    flex: 1;
+    padding: 0 20px;
+}
+.box4{
+    height: 400px;
+    width: 400px;
+    border: none;
+    padding: 0 100px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px;
+}
+.plant1{
+    height:  200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.plant2{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+}
+.plant3{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-top: 30px;
+
+}
+.plant4{
+    height:200px;
+    width: 200px;
+    margin-top: 30px;
+    
+}
+.btn3{
+    background-color: #9DB97F;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15x;
+    font-family: 'Poppins', sans-serif;
+}
+.claim{
+    background-image: 
+    linear-gradient(rgba(15, 30, 64, 0.5), rgba(15, 30, 64, 0.5)),
+    url("./images/claim.png");
+    background-size: cover;
+    display: flex;
+    Height: 300px;
+    margin-top: 150px; 
+}
+.box5{    height: 200px;
+    width: 200px;
+    border: none;
+    flex: 1;
+    padding: 0 100px;
+    margin-top: 60px;
+}
+.box6{
+    height: 100px;
+    width: 200px;
+    border: none;
+    padding: 0 100px;
+    flex: 1;
+    margin-top: 60px;
+}
+.ch2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.chp{
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-left: 96px;
+}
+.input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    margin-top: 30px;
+}
+.btn4{
+    background-color: #9DB97F;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.ph1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.box7{
+    height: 200px;
+    width: 400px;
+    border: none;
+    display: flex;
+    padding: 0 100px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+.ivy{
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+    margin-left: 80px;
+}
+.jasmine{
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+}
+.rose{
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+}
+.ging{
+    height: 200px;
+    width: 200px;
+}
+.ivy{
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.jasmine{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.rose{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.ging{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.last{
+    display: flex;
+    height: 250px;
+    width: 1050px; 
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+.nav{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    flex: 1;
+     margin-left: 80px;
+
+}
+.cttp{
+    flex: 1;
+    margin-right: 50px;
+    
+}
+
+.ct{
+   font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+   
+} 
+.ctp{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+}
+.map{
+    flex: 1;
+    margin-top: 20px;
+    
+} 
+.map img{
+    height: 200px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--nav-bg);
+  padding: 16px 32px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0 10px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #9DB97F;
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+  }
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header, .services, .last {
+  transition: background-color 0.3s ease;
+}
+
+
+
+   DARK MODE OVERRIDES
+   
+
+[data-theme="dark"] body {
+  background-color: #121212;
+}
+
+[data-theme="dark"] header {
+  background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .services {
+  background-color: #1a1a1a;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h6,
+[data-theme="dark"] .sh1,
+[data-theme="dark"] .ph1,
+[data-theme="dark"] .ct {
+  color: #f0f0f0;
+}
+
+[data-theme="dark"] p,
+[data-theme="dark"] .ctp,
+[data-theme="dark"] h4 {
+  color: #b0b0b0;
+}
+
+[data-theme="dark"] .btn2 {
+  background-color: #1a1a1a;
+  color: white;
+  border: 2px solid #555;
+}
+
+[data-theme="dark"] .box6 .input {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+[data-theme="dark"] .last {
+  background-color: #121212;
+}
+
+[data-theme="dark"] .nav h6 {
+  color: #f0f0f0;
+}
